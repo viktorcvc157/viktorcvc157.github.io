@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Vendas - Renda com IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #050505;
+        }
+        .highlight-blue {
+            color: #00A3FF;
+        }
+        .cta-button {
+            background-color: #00A3FF;
+            color: #ffffff;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(0, 163, 255, 0.4);
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 163, 255, 0.6);
+        }
+        .gradient-text {
+            background: -webkit-linear-gradient(45deg, #00A3FF, #8E2DE2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtle-border {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent);
+        }
+
+        /* Estilos para a animação de scroll */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-up.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .ebook-cover-shadow {
+            filter: drop-shadow(0px 10px 40px rgba(0, 163, 255, 0.25));
+        }
+    </style>
+</head>
+<body class="bg-[#050505] text-gray-200">
+
+    <!-- Seção Principal (Hero) -->
+    <header class="text-center py-20 md:py-32 px-4">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight fade-in-up">A Inteligência Artificial já é uma realidade.</h1>
+            <h2 class="text-4xl md:text-6xl font-extrabold gradient-text mb-8 fade-in-up" style="transition-delay: 150ms;">Sua nova fonte de renda também pode ser.</h2>
+            <p class="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 fade-in-up" style="transition-delay: 300ms;">Um guia direto ao ponto para você lucrar com a maior revolução tecnológica da nossa geração, sem precisar de conhecimento técnico.</p>
+            <a href="#comprar" class="cta-button inline-block font-bold text-lg py-4 px-12 rounded-lg fade-in-up" style="transition-delay: 450ms;">
+                DESBLOQUEAR O GUIA
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção de Apresentação do Ebook -->
+        <section class="py-16 md:py-24 px-4">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2 text-left">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 fade-in-up">O atalho que você precisava.</h2>
+                    <p class="text-gray-400 text-lg mb-8 fade-in-up" style="transition-delay: 150ms;">Este guia foi desenhado para ser o seu filtro. Um mapa validado que remove o ruído e entrega apenas o que você precisa para começar a gerar renda com IA em poucos dias.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4 fade-in-up" style="transition-delay: 300ms;">
+                            <span class="highlight-blue font-bold text-xl mt-1">✓</span>
+                            <p class="text-gray-300"><strong class="text-white">Modelos de Renda Práticos:</strong> Descubra 5 caminhos de monetização e escolha o que melhor se adapta a você.</p>
+                        </div>
+                        <div class="flex items-start gap-4 fade-in-up" style="transition-delay: 400ms;">
+                            <span class="highlight-blue font-bold text-xl mt-1">✓</span>
+                            <p class="text-gray-300"><strong class="text-white">Ferramentas Essenciais:</strong> Acesse uma lista curada das melhores ferramentas (muitas gratuitas) para criar com eficiência.</p>
+                        </div>
+                        <div class="flex items-start gap-4 fade-in-up" style="transition-delay: 500ms;">
+                            <span class="highlight-blue font-bold text-xl mt-1">✓</span>
+                            <p class="text-gray-300"><strong class="text-white">Estratégias para Clientes:</strong> Aprenda o método exato para construir um portfólio e conquistar seus primeiros projetos pagos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-10 md:mt-0">
+                    <!-- Imagem da capa atualizada -->
+                    <img src="https://i.imgur.com/bUt4WSl.png" alt="Capa do Ebook Renda com IA" class="mx-auto rounded-lg w-full max-w-sm ebook-cover-shadow fade-in-up" style="transition-delay: 200ms;">
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider max-w-4xl mx-auto"></div>
+
+        <!-- Seção de Problema -->
+        <section class="py-16 md:py-24 px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 fade-in-up">Cansado de se sentir para trás?</h2>
+                <p class="text-gray-400 text-lg mb-12 fade-in-up" style="transition-delay: 150ms;">O mundo da IA parece complexo, rápido e exclusivo para gênios da tecnologia. <br class="hidden md:block"> Você vê o potencial, mas não sabe por onde começar.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                    <div class="bg-black p-6 rounded-lg subtle-border fade-in-up" style="transition-delay: 300ms;">
+                        <h3 class="font-bold text-xl mb-2 text-white">Excesso de Informação</h3>
+                        <p class="text-gray-400">Notícias, ferramentas e tutoriais que mais confundem do que ajudam.</p>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg subtle-border fade-in-up" style="transition-delay: 400ms;">
+                        <h3 class="font-bold text-xl mb-2 text-white">Falta de um Caminho</h3>
+                        <p class="text-gray-400">A ausência de um passo a passo claro para transformar conhecimento em dinheiro.</p>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg subtle-border fade-in-up" style="transition-delay: 500ms;">
+                        <h3 class="font-bold text-xl mb-2 text-white">Medo da Complexidade</h3>
+                        <p class="text-gray-400">A crença de que é preciso programar ou ser um expert para ter resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de CTA (Call to Action) -->
+        <section id="comprar" class="py-16 md:py-24 px-4 text-center">
+            <div class="max-w-2xl mx-auto bg-black border-2 border-[#00A3FF] rounded-lg p-8 md:p-12 shadow-2xl shadow-[#00a3ff]/10 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Comece a sua jornada hoje.</h2>
+                <p class="text-gray-400 text-lg mb-8">Acesso imediato e vitalício a todo o material.</p>
+                
+                <p class="text-lg text-gray-500 line-through">De R$ 197</p>
+                <p class="text-5xl font-extrabold text-white my-2">Por apenas R$ 89,90</p>
+                <p class="text-gray-400 mb-8">(Pagamento único)</p>
+
+                <a href="#link-checkout" class="cta-button inline-block w-full font-bold text-xl py-4 px-10 rounded-lg">
+                    QUERO GERAR RENDA COM IA
+                </a>
+                <div class="mt-8">
+                     <p class="text-gray-400">Garantia incondicional de 7 dias. Seu investimento é 100% seguro.</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 px-4">
+        <p class="text-gray-600">&copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Script para ativar a animação ao rolar a página
+        document.addEventListener("DOMContentLoaded", () => {
+            const animatedElements = document.querySelectorAll('.fade-in-up');
+
+            if (!animatedElements) return;
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            animatedElements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
+</body>
+</html>
+
